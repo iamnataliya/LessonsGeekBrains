@@ -30,6 +30,17 @@
 * Команда позволяет склонировать внешний репозиторий на наш ПК *git clone*
 * Команда позволяет скачать все из текущего репозитория и автоматически сделать merge с нашей версией *git pull*
 * Команда позволяет отправить нашу версию репозитория на внешний репозиторий *git push*
+## Пошаговая инструкция create a new repository on the command line
+ 1 git init
+ 2 git add README.md (Можно не добавлять)
+ 3 git commit -m "first commit"
+ 4 git branch -M main
+ 5 git remote add origin https://github.com/iamnataliya/123.git (Пример ссылки)
+ 6 git push -u origin main
+ ## Пошаговая инструкция push an existing repository from the command line
+1 git remote add origin https://github.com/iamnataliya/123.git
+2 git branch -M main
+3 git push -u origin main
 
 ### Как сделать pull request
 1. Делаем fork репозитория
